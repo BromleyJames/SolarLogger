@@ -1,0 +1,1 @@
+# This file contains the dictionary of definitions for the code sent/received to the inverter
