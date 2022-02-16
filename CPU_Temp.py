@@ -1,5 +1,8 @@
 from gpiozero import CPUTemperature
+from time import sleep
 
-cpu = CPUTemperature()
-print(cpu.temperature)
-
+while True:
+     
+    cpu = CPUTemperature()
+    print(cpu.temperature)
+    sleep(5) 
